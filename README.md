@@ -40,6 +40,10 @@ Bonus (Hard):
 Lab located at▫
 https://github.com/rails-decal/week4-lab
 
+
+Lab hints
+=========
+
 Hints for lab warmup:
 ---------------------
 In console:
