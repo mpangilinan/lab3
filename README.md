@@ -24,10 +24,11 @@ Warmup:
   
 Questions:
 ----------
-1. Add a new field to the user called "phone"
+1. Delete the age field from the user
+2. Add it back, but this time call it "yearsold"
+3. Show only users that are > 50 yearsold on the index
+3. Add a new field to the user called "phone"
     1. Add phone numbers to all the previous users using the edit form, not the console
-2. Delete the age field from the user
-3. Make the index page only show the latest added User.
 
 Bonus:
 ------
