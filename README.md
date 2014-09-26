@@ -40,9 +40,8 @@ Bonus (Hard):
 Lab located at▫
 https://github.com/rails-decal/week4-lab
 
-########################################
 Hints for lab warmup:
-########################################
+---------------------
 In console:
 
 ```
@@ -56,9 +55,8 @@ In console:
 Find a user in the console by using User.find(<id>)
 Remember to create a variable with them and then save it to the database to actually edit!
 
-########################################
 Hints for lab questions:
-########################################
+------------------------
 1. migrations (also help you delete :D)
 ```
 $ rails generate migration RemoveFieldNameFromTableName field_name:datatype
@@ -68,7 +66,8 @@ $ rake db:migrate
 2. migrations
 3. Checkout the index function
 
-Bonus:
+Hints for Bonus:
+----------------
 Hint: You need to use a form, and work with both the new/create functions in the controller
 Check out https://www.railstutorial.org/book to learn more about how you could do this
 
