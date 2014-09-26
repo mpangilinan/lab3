@@ -8,7 +8,6 @@ For this lab you will be adding additional features to the current application i
 
 Instructions:
 ------------
-1. Run 'rake db:migrate' 
 2. Run 'rake db:migrate' 
 3. Run 'rails s'
 4. go to the url /users
