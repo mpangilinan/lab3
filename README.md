@@ -7,7 +7,7 @@ For this lab you will be adding additional features to the current application i
 
 Instructions:
 ------------
-1. cd into week3 rails app.
+1. cd into lab3railsapp.
 2. Run 'rake db:migrate' 
 3. Run 'rails s'
 4. go to the url /users
