@@ -45,14 +45,14 @@ Hints for lab warmup:
 ########################################
 In console:
 
-$ User.all # This will show all users
-$ wonjun = User.new
-$ wonjun.age = 99
-$ wonjun.name = "wonjun"
-$ wonjun.save
-
-$ User.all # You can now see wonjun
-
+```
+> User.all # This will show all users
+> wonjun = User.new
+> wonjun.age = 99
+> wonjun.name = "wonjun"
+> wonjun.save
+> User.all # You can now see wonjun
+```
 Find a user in the console by using User.find(<id>)
 Remember to create a variable with them and then save it to the database to actually edit!
 
@@ -60,9 +60,11 @@ Remember to create a variable with them and then save it to the database to actu
 Hints for lab questions:
 ########################################
 1. migrations (also help you delete :D)
+```
 $ rails generate migration RemoveFieldNameFromTableName field_name:datatype
 $ rake db:migrate
 # If you can't remember a command or need to know, google is your friend!
+```
 2. migrations
 3. Checkout the index function
 
