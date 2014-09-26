@@ -1,13 +1,13 @@
-week4-lab
+lab3
 =========
 
-Lab for Week 4 that goes over models, db migrations, rails console, and CRUD
+Lab for Lecture 3 that goes over models, db migrations, rails console, and CRUD
 
 For this lab you will be adding additional features to the current application included.
 
 Instructions:
 ------------
-1. cd into week4 rails app.
+1. cd into week3 rails app.
 2. Run 'rake db:migrate' 
 3. Run 'rails s'
 4. go to the url /users
@@ -35,10 +35,6 @@ Questions:
 Bonus (Hard):
 ------
 1. Add a create form so you can go to /users/new to create a user successfully.
-
-
-Lab located at▫
-https://github.com/rails-decal/week4-lab
 
 
 Lab hints
