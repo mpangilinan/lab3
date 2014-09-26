@@ -3,7 +3,6 @@ week4-lab
 
 Lab for Week 4 that goes over models, db migrations, rails console, and CRUD
 
-
 For this lab you will be adding additional features to the current application included.
 
 Instructions:
@@ -38,4 +37,36 @@ Bonus (Hard):
 1. Add a create form so you can go to /users/new to create a user successfully.
 
 
+Lab located at▫
+https://github.com/rails-decal/week4-lab
+
+########################################
+Hints for lab warmup:
+########################################
+In console:
+
+> User.all # This will show all users
+> wonjun = User.new
+> wonjun.age = 99
+> wonjun.name = "wonjun"
+> wonjun.save
+
+> User.all # You can now see wonjun
+
+Find a user in the console by using User.find(<id>)
+Remember to create a variable with them and then save it to the database to actually edit!
+
+########################################
+Hints for lab questions:
+########################################
+1) migrations (also help you delete :D)
+$ rails generate migration RemoveFieldNameFromTableName field_name:datatype
+$ rake db:migrate
+# If you can't remember a command or need to know, google is your friend!
+2) migrations
+3) Checkout the index function
+
+Bonus:
+Hint: You need to use a form, and work with both the new/create functions in the controller
+Check out https://www.railstutorial.org/book to learn more about how you could do this
 
