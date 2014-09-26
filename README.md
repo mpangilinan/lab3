@@ -30,7 +30,7 @@ Questions:
      1. Running 'User' on rails console should not show the age field 
 2. Add it back, but this time call it "yearsold" (Update the edit form and the controller as well)
      1. Running 'User' on rails console should now show the yearsold field.
-     2. Go ahead and update all the users again to have years because right now they are null, using the edit form.
+     2. Go ahead and update all the users again using the console, since their yearsold will be blank now
 3. Show only users that are > 50 yearsold on the index
 3. Add a new field to the user called "phone"
     1. Add phone numbers to all the previous users using the edit form, not the console
