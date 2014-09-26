@@ -33,10 +33,9 @@ Questions:
      2. Go ahead and update all the users again using the console, since their yearsold will be blank now
 3. Show only users that are > 50 yearsold on the index
 
-Bonus:
+Bonus (Hard):
 ------
 1. Add a create form so you can go to /users/new to create a user successfully.
 
 
-Hint: Try to take parts of the update/edit logic you see in the form/controller and copy that over
 
