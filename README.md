@@ -8,17 +8,19 @@ For this lab you will be adding additional features to the current application i
 
 Instructions:
 ------------
+1. cd into week4 rails app.
 2. Run 'rake db:migrate' 
 3. Run 'rails s'
 4. go to the url /users
 
 You should be able to do this fine. If you run into any issues, please see a TA for help.
+If you see no users, it means you need to create some first
 
 Warmup:
 -------
 1. Go to your rails console, and add 3 users
     1. Make sure that you can see these 3 users at /users
-2. Use the form or the console to edit the names of these users
+2. Use the console to edit the names of these users
     1. See the changes appear at /users
   
   
